@@ -1,0 +1,22 @@
+language: java
+
+git:
+quiet: false
+
+before_install:
+- brew install gradle
+- gradle installWrapper
+
+jobs:
+include:
+-jdk: openjdk11
+os: linux
+-jdk: openjdk8
+os: osx
+allow_failures:
+- os: osx
+
+notifications:
+email:
+recipients: 
+- steinigke300@googlemail.com
