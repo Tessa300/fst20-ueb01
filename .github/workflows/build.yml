@@ -13,6 +13,6 @@ jobs:
           with:
             java-version: 11
       - name: Install gradle wrapper
-	      run: gradle installWrapper
+        run: gradle installWrapper
       - name: Grant execution permission
-	      run: chmod +x gradlew
+        run: chmod +x gradlew
