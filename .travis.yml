@@ -19,6 +19,6 @@ jobs:
 notifications:
   email:
     recipients: 
-    - steinigke300@googlemail.com
+    - s4testei@uni-trier.de
 
 script: ./gradlew buildCore
